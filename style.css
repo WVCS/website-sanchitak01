@@ -1,3 +1,39 @@
-body {
+h3 {
+  line-spacing: 15px;
+  text-align: center;
+  color: #DCD7C9;
+  font-size: 35px;
+  font: calibri;
+}
 
+h5 {
+  text-align: center;
+  color: #DCD7C9;
+  font-size: 20px;
+}
+
+body {
+  background-color: #2C3639;
+}
+
+
+
+nav {
+  list-style-type: none;
+  background-color: #A27B5C;
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  left: 0;
+}
+
+a {
+  color: #DCD7C9;
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  float: right;
 }
