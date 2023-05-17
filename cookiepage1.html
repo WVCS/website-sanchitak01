@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,9 +7,9 @@
 </head>
 <body>
  <nav>
-  <li><a href="cookiepage1.html"> Cookie Recipes </a> </li>
-   <li><a href="cakepage2.html"> Cake Recipes </a>   </li>
-      <li><a href="cookingpage3.html"> Cooking Recipes </a>   </li>
+  <li class="navli"><a href="cookiepage1.html"> Cookie Recipes </a> </li>
+   <li class="navli"><a href="cakepage2.html"> Cake Recipes </a>   </li>
+      <li class="navli"><a href="cookingpage3.html"> Cooking Recipes </a>   </li>
    
   </nav>
   <!-----------------------HEADINGS ----------------------------------------------->
@@ -43,8 +42,6 @@
    </h6>
 </body>
   
-  
-  
 </html>
 
 
@@ -52,7 +49,7 @@
 
 
 <style>
-  h3 {
+ h3 {
   line-spacing: 15px;
   text-align: center;
   color: #DCD7C9;
@@ -90,9 +87,7 @@ nav {
   position: absolute;
   width: 100vw;
   top: 0;
-  float: right;
-  padding: 10px;
-  display: inline;
+  left: 0;
 }
 
 a {
@@ -100,6 +95,9 @@ a {
   text-decoration: none;
 }
 
-  
-  
+.navli {
+  display: inline;
+  padding: 10px;
+  float: right;
+} 
   </style>
