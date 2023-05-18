@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -7,9 +8,10 @@
 </head>
 <body>
  <nav>
-  <li><a href="cookiepage1.html"> Cookie Recipes </a> </li>
-   <li><a href="cakepage2.html"> Cake Recipes </a>   </li>
-      <li><a href="cookingpage3.html"> Cooking Recipes </a>   </li>
+  <li class="navli"><a href="index.html"> Home </a> </li>
+   <li class="navli"><a href="cookiepage1.html"> Cookie Recipes </a> </li>
+   <li class="navli"><a href="cakepage2.html"> Cake Recipes </a>   </li>
+      <li class="navli"><a href="cookingpage3.html"> Cooking Recipes </a>   </li>
    
   </nav>
   <!-----------------------HEADINGS ----------------------------------------------->
@@ -70,11 +72,10 @@ INSTRUCTIONS
   
   
 </html>
-
-
-
-<style>
-  h3 {
+  
+  
+  <style>
+    h3 {
   line-spacing: 15px;
   text-align: center;
   color: #DCD7C9;
@@ -109,8 +110,8 @@ body {
 nav {
   list-style-type: none;
   background-color: #A27B5C;
-  position: absolute;
-  width: 100vw;
+  position: fixed;
+  width: 99vw;
   top: 0;
   left: 0;
 }
@@ -120,10 +121,10 @@ a {
   text-decoration: none;
 }
 
-li {
+.navli {
   display: inline;
   padding: 10px;
   float: right;
 }
-  
-  </style>
+    
+   </style>
